@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    margin-top:  150px;   
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 5px /*X-axis*/ 2px /*Y-axis*/ 20px /*Blurrness*/ 3px /*spread radius*/ gray;
+    overflow: hidden; 
+ 
+  }
+.icon{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+img{
+    width: 100%;
+    border: 2px rgb(153, 152, 149) solid;
+    position: relative;
+    filter: blur(3px);  
+}
+
+button{
+    border: 3px white solid;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+   top: 50%;
+   left: 40%;
+   padding: 10px 30px;
+   background-color: rgba(0,0,0,0);
+   font-size: 15px;
+ 
+
+}
+button:hover{
+    background: rgb(153, 152, 149);
+    
+}
+.name{
+   font-size: 20px;
+   font-weight: bold;
+   padding:18px 0 0 18px;
+    
+
+}
+.location {
+    color: slategrey;
+    padding: 10px 0 15px 18px;
+    font-size: 18px;
+
+}
+.more-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: slategrey;
+    padding:  20px;
+    font-size: 18px;
+
+}
+hr{
+    height: 1.5px;
+    background-color: rgb(205, 210, 214);
+    border: none;
+}
